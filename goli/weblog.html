@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/mian.css" />
+  </head>
+  <body>
+    <!--make website-->
+    <div
+      class="desktop:bg-[#fffefe] desktop:w-full desktop:flex desktop:flex-col desktop:items-center desktop:h-screen font-[sans]"
+    >
+      <!--centerWebsite-->
+      <div
+        class="wrapper desktop:w-[83%] desktop:shadow desktop:flex desktop:flex-col desktop:items-center"
+      >
+        <!--header-->
+        <header class="mobile:w-full bg-[#262626]">
+          <!--mobileHeader-->
+          <div class="desktop:hidden mobile:flex mobile:flex-col">
+            <div class="menuPicture mobile:flex mobile:justify-center">
+              <a href="#">
+                <div class="menuPictureOne">
+                  <img src="public/image/golestan/logo-fr.png" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="mobile:w-full mobile:h-10">
+              <div class="mobile:flex">
+                <div class="group mobile:flex">
+                  <a href="#" class="mobile:block mobile:mr-5">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="hamburgerMenu"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <g fill="#424750">
+                        <path
+                          fill-rule="evenodd"
+                          d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                  <div
+                    class="mobile:w-full desktop:w-max mobile:absolute mobile:-z-[100px] mobile:pt-10 mobile:bg-[#262626] mobile:hidden mobile:group-hover:block mobile:transition-all mobile:duration-300 mobile:ease-linear"
+                  >
+                    <ul
+                      class="subMenu mobile:flex mobile:flex-col mobile:text-white mobile:gap-4 mobile:m-5"
+                    >
+                      <li class="mobile:flex">
+                        <a href="./index.html">صفحه اصلی</a>
+                      </li>
+                      <li class="mobile:flex">
+                        <a href="#">شرکت گلستان</a>
+                      </li>
+                      <li class="mobile:flex">
+                        <a href="#">محصولات</a>
+                      </li>
+                      <li class="mobile:flex">
+                        <a href="./weblog.html">وبلاگ</a>
+                      </li>
+                      <li class="mobile:flex">
+                        <a href="#">قرعه کشی</a>
+                      </li>
+                      <li class="mobile:flex">
+                        <a href="#">استخدام</a>
+                      </li>
+                      <li class="mobile:flex">
+                        <a href="#">تماس با ما</a>
+                      </li>
+                      <li class="mobile:flex">
+                        <a href="#">EN</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end mobileHeader-->
+          <!--desktopHeader-->
+          <div
+            class="mobile:hidden desktop:my-7 desktop:flex desktop:justify-center"
+          >
+            <div class="desktop:pl-[250px] desktop:flex">
+              <a href="#">
+                <img
+                  class="absolute"
+                  src="public/image/golestan/logo-fr.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="desktop:flex desktop:items-center">
+              <div class="desktop:flex">
+                <ul
+                  class="desktop:text-[#afb2b4] desktop:gap-[10px] desktop:text-base desktop:flex"
+                >
+                  <li><a href="./index.html">صفحه اصلی</a></li>
+                  |
+                  <li><a href="#">شرکت گلستان</a></li>
+                  |
+                  <li><a href="#">محصولات</a></li>
+                  |
+                  <li><a href="./weblog.html">وبلاگ</a></li>
+                  |
+                  <li><a href="#">قرعه کشی</a></li>
+                  |
+                  <li><a href="#">استخدام</a></li>
+                  |
+                  <li><a href="#">تماس با ما</a></li>
+                  |
+                  <li><a href="#">EN</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--end desktopHeader-->
+        </header>
+        <!--end header-->
+        <!--weblog-->
+        <div class="w-full flex justify-center my-10">
+          <h1
+            class="text-[#ff0000] desktop:w-[62%] mobile:w-[63%] p-[10px] font-bold"
+          >
+            وبلاگ
+          </h1>
+        </div>
+        <!--end weblog-->
+        <!--post weblog-->
+        <div class="flex flex-col gap-20 bg-[#F7F9FB]">
+          <div class="flex gap-3 justify-center flex-row w-full desktop:mt-20">
+            <div
+              class="flex gap-3 justify-center mobile:flex-col desktop:flex-row w-[60%]"
+            >
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-makarani.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">
+                    ماکارانی با سبزیجات
+                  </h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-soup.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">سوپ مکزیکی</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-Chilakile.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">چیلا کیله</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-3 justify-center flex-row w-full">
+            <div
+              class="flex gap-3 justify-center mobile:flex-col desktop:flex-row w-[60%]"
+            >
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-makarani.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">
+                    ماکارانی با سبزیجات
+                  </h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-soup.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">سوپ مکزیکی</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-Chilakile.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">چیلا کیله</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-3 justify-center flex-row w-full">
+            <div
+              class="flex gap-3 justify-center mobile:flex-col desktop:flex-row w-[60%]"
+            >
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-makarani.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">
+                    ماکارانی با سبزیجات
+                  </h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-soup.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">سوپ مکزیکی</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-Chilakile.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">چیلا کیله</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-3 justify-center flex-row w-full">
+            <div
+              class="flex gap-3 justify-center mobile:flex-col desktop:flex-row w-[60%]"
+            >
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-makarani.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">
+                    ماکارانی با سبزیجات
+                  </h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-soup.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">سوپ مکزیکی</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <img
+                    src="public/image/golestan/majale/majale-Chilakile.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">چیلا کیله</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    ابتدا ماکارانی ها را در ظرفی به همراه آب روغن مایع و نمک
+                    میریزیم تا کمی بپزد . در این حین پیازها را خورد کرده و روی
+                    روغن تفت می دهیم تا طلایی شود ...
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border">ادامه مطلب</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--video-->
+          <div class="flex gap-3 justify-center flex-row w-full">
+            <div
+              class="my-[100px] flex gap-3 justify-center mobile:flex-col desktop:flex-row w-[60%]"
+            >
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <video src=""></video>
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">سالاد نودل</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید
+                    با كمی آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم
+                    و خوشمزه لذت ببرید.
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border"
+                          >ویدیوهای بیشتر</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <video src=""></video>
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">سالاد نودل</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید
+                    با كمی آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم
+                    و خوشمزه لذت ببرید.
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border"
+                          >ویدیوهای بیشتر</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow flex flex-col gap-4">
+                <div>
+                  <video src=""></video>
+                </div>
+                <div>
+                  <h3 class="text-[#ff0000] w-[70%] p-[10px]">سالاد نودل</h3>
+                </div>
+                <div class="p-[10px] text-[#7a7a7a]">
+                  <h3>
+                    نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید
+                    با كمی آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم
+                    و خوشمزه لذت ببرید.
+                  </h3>
+                </div>
+                <div class="mb-6">
+                  <div class="desktop:pt-10 mobile:pt-5 pr-3 text-[#7a7a7a]">
+                    <div>
+                      <a href="#">
+                        <span class="p-2 rounded-[8px] border"
+                          >ویدیوهای بیشتر</span
+                        >
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end video-->
+        </div>
+        <!--end post weblog-->
+        <!--footer-->
+        <footer class="w-full">
+          <div class="w-full">
+            <div class="w-full h-[95px] bg-[#EEEFEF]">
+              <div>
+                <div>
+                  <a href="https://facebook.com/golestanco"></a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/company/golestan-co/"></a>
+                </div>
+                <div>
+                  <a href="https://www.instagram.com/golestanco"></a>
+                </div>
+                <div>
+                  <a href="https://telegram.me/golestanco"></a>
+                </div>
+                <div>
+                  <a href="https://www.aparat.com/golestan"></a>
+                </div>
+                <div>
+                  <a href="#"></a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full bg-[#ED1C24] h-6"></div>
+            <div class="bg-[#000000] w-full flex flex-row justify-center">
+              <div
+                class="desktop:w-[50%] mobile:w-[80%] flex mobile:flex-col desktop:flex-row gap-6 justify-center items-center"
+              >
+                <div class="w-full gap-4">
+                  <div class="w-full flex justify-center mb-6">
+                    <img
+                      src="public/image/golestan/footer/footer-icon2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <hr class="w-full" />
+                  <div class="w-full flex justify-center my-3">
+                    <h3 class="text-white">حبوبات گلستان</h3>
+                  </div>
+                  <hr class="w-full" />
+                  <div
+                    class="flex flex-col w-full mobile:items-center desktop:items-start text-[#7a7a7a] mt-10"
+                  >
+                    <h4>لوبیا قرمز ممتاز</h4>
+                    <h4>لوبیا چیتی گلستان</h4>
+                    <h4>عدس کانادایی</h4>
+                    <h4>نخود زودپز</h4>
+                    <h4>لوبیا سفید گلستان</h4>
+                  </div>
+                </div>
+                <div class="w-full gap-4">
+                  <div class="w-full flex justify-center mb-6">
+                    <img
+                      src="public/image/golestan/footer/footer-icon2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <hr class="w-full" />
+                  <div class="w-full flex justify-center my-3">
+                    <h3 class="text-white">حبوبات گلستان</h3>
+                  </div>
+                  <hr class="w-full" />
+                  <div
+                    class="mobile:items-center desktop:items-start flex flex-col w-full text-[#7a7a7a] mt-10"
+                  >
+                    <h4>لوبیا قرمز ممتاز</h4>
+                    <h4>لوبیا چیتی گلستان</h4>
+                    <h4>عدس کانادایی</h4>
+                    <h4>نخود زودپز</h4>
+                    <h4>لوبیا سفید گلستان</h4>
+                  </div>
+                </div>
+                <div class="w-full gap-4">
+                  <div class="w-full flex justify-center mb-6">
+                    <img
+                      src="public/image/golestan/footer/footer-icon2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <hr class="w-full" />
+                  <div class="w-full flex justify-center my-3">
+                    <h3 class="text-white">حبوبات گلستان</h3>
+                  </div>
+                  <hr class="w-full" />
+                  <div
+                    class="mobile:items-center desktop:items-start flex flex-col w-full text-[#7a7a7a] mt-10"
+                  >
+                    <h4>لوبیا قرمز ممتاز</h4>
+                    <h4>لوبیا چیتی گلستان</h4>
+                    <h4>عدس کانادایی</h4>
+                    <h4>نخود زودپز</h4>
+                    <h4>لوبیا سفید گلستان</h4>
+                  </div>
+                </div>
+                <div class="w-full gap-4">
+                  <div class="w-full flex justify-center mb-6">
+                    <img
+                      src="public/image/golestan/footer/footer-icon2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <hr class="w-full" />
+                  <div class="w-full flex justify-center my-3">
+                    <h3 class="text-white">حبوبات گلستان</h3>
+                  </div>
+                  <hr class="w-full" />
+                  <div
+                    class="mobile:items-center desktop:items-start flex flex-col w-full text-[#7a7a7a] mt-10"
+                  >
+                    <h4>لوبیا قرمز ممتاز</h4>
+                    <h4>لوبیا چیتی گلستان</h4>
+                    <h4>عدس کانادایی</h4>
+                    <h4>نخود زودپز</h4>
+                    <h4>لوبیا سفید گلستان</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-[#000000] w-full flex flex-col items-center justify-center"
+            >
+              <h3 class="text-[#9f9f9f] mt-16">
+                All Right Reserved Golestan Company 2022-2025
+              </h3>
+              <h5 class="text-[#7b7b7b] mb-8">Design By: Golestan Studio</h5>
+            </div>
+          </div>
+        </footer>
+        <!--footer-->
+      </div>
+      <!--end centerWebsite-->
+    </div>
+    <!--end make website-->
+  </body>
+</html>
