@@ -4,7 +4,7 @@
 @layer components {
   * {
     direction: rtl;
-    font-family: var(--font-family);
+    font-family:IranSans;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +21,11 @@
     }
   }
 }
+
 @font-face {
-  font-family: sans;
-  src: url(../../public/font/A-Iranian-Sans/Iranian\ Sans.ttf);
+  font-family: IranSans;
+  src: url(../font/iransans/AIranianSans.eot);
+  src: url(../font/iransans/AIranianSans.woff2);
+  src: url(../font/iransans/AIranianSans.woff);
+  src: url(../font/iransans/AIranianSans.ttf);
 }
